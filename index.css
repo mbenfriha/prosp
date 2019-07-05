@@ -411,3 +411,19 @@ body {
     height: 20%;
     margin-left: 4px;
 }
+
+/* input */
+
+.upper-input {
+    text-transform: uppercase;
+}
+.date-input::-webkit-inner-spin-button,
+.date-input::-webkit-calendar-picker-indicator,
+.date-input::-webkit-clear-button {
+    opacity:0;
+    -webkit-appearance: none;
+}
+.date-input {
+    font-size: 7px;
+    width:98%;
+}

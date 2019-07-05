@@ -9,14 +9,35 @@
         <div class="center-party">
             <span class="title">raison social</span>
             <br>
-            <input class="data" id="raison-social" value="STÉ CONSTRUCTION RÉPARATION MATÉRIEL AÉRONAUTIQUE">
+            <input class="data upper-input" id="raison-social" value="STÉ CONSTRUCTION RÉPARATION MATÉRIEL AÉRONAUTIQUE">
         </div>
         <div class="right-party">
-            <div class="square"><span class="title">sigle</span></div>
-            <div class="square"><span class="title">status</span></div>
-            <div class="square"> <span class="title">capital (m€)</span></div>
-            <div class="square square-outsize"> <span class="title">création</span></div>
-            <div class="square"> <span class="title">fil./gr.</span></div>
+            <div class="square">
+                <span class="title">sigle</span>
+                <br>
+                <input type="text" class="data upper-input" id="sigle" value="crma">
+            </div>
+            <div class="square">
+                <span class="title">statut</span>
+                <br>
+                <input type="text" class="data upper-input" id="statut" value="sa">
+            </div>
+            <div class="square">
+                <span class="title">capital (m€)</span>
+                <br>
+                <input type="number" class="data" id="capital" value="7800">
+            </div>
+            <div class="square square-outsize">
+                <span class="title">création</span>
+                <br>
+                <input type="date" class="data date-input" id="create" value="1978-01-01">
+            </div>
+            <div class="square">
+                <span class="title">fil./gr.</span>
+
+                <br>
+                <input type="text" class="data upper-input" id="fil" value="100% af-klm">
+            </div>
         </div>
     </div>
 
@@ -24,20 +45,44 @@
         <div class="left-party">
             <span class="title">ape-naf</span>
             <br>
-            <span class="data" id="ape-naf">166 288 304</span>
+            <input class="data" id="ape-naf" type="text" value="3316Z">
         </div>
         <div class="center-party">
             <span class="title">libellé</span>
             <br>
-            <span class="data" id="raison-social">Réparation & maintenance d'aeronefs &  engins spaciaux</span>
+            <input class="data" type="text" id="libelle" value="Réparation & maintenance d'aeronefs &  engins spaciaux">
         </div>
         <div class="right-party">
-            <div class="square"> <span class="title">maj</span> </div>
-            <div class="square"> <span class="title">affec</span> </div>
-            <div class="square"> <span class="title">suppl</span> </div>
-            <div class="square"> <span class="title">établ.</span> </div>
-            <div class="square square-outsize"> <span class="title">gref.TC</span> </div>
-            <div class="square"> <span class="title">tva intra</span> </div>
+            <div class="square">
+                <span class="title">maj</span>
+                <br>
+                <input class="data date-input" type="date" id="maj-h" value="2019-06-29">
+            </div>
+            <div class="square">
+                <span class="title">affec</span>
+                <br>
+                <input class="data upper-input" id="affec-h" type="text" value="mija">
+            </div>
+            <div class="square">
+                <span class="title">suppl.</span>
+                <br>
+                <input class="data upper-input" id="suppl-h" type="text" value="ajim">
+            </div>
+            <div class="square">
+                <span class="title">établ.</span>
+                <br>
+                <input class="data" id="etabl-h" type="number" value="3">
+            </div>
+            <div class="square square-outsize">
+                <span class="title">gref.TC</span>
+                <br>
+                <input class="data" id="gref-h" type="text" value="Versailles">
+            </div>
+            <div class="square">
+                <span class="title">tva intra</span>
+                <br>
+                <input class="data upper-input" id="tva-h" type="text" value="fr">
+            </div>
         </div>
     </div>
     <div class="sub-header-prospect">
