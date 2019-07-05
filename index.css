@@ -1,0 +1,338 @@
+body {
+    width: 1400px;
+    margin:0 auto;
+}
+
+.green {
+    color:green
+}
+.main-panel {
+    height: 300px;
+}
+
+.header-prospect {
+    border-top: 4px solid #0D67C1;
+    border-right: 4px solid #0D67C1;
+    border-left: 4px solid #0D67C1;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    height: 5em;
+    overflow: hidden;
+}
+
+.header-prospect .left-party{
+    text-align:right;
+}
+
+
+.header-prospect .left-party span{
+    margin-right: 5px;
+    font-style: italic;
+}
+
+.header-prospect .center-party {
+    width: 58%;
+}
+.header-prospect .center-party span {
+    margin-left: 5px;
+    font-style: italic;
+}
+.header-prospect .right-party{
+    width: 33%;
+}
+
+.header-prospect .right-party .square:first-child {
+    border-left: 2px solid #0D67C1;
+    width: 39.5%;
+    height: 100%;
+    float: left;
+}
+
+
+.header-prospect .right-party .square {
+    border-left: 2px solid #0D67C1;
+    width: 27.5%;
+    height: 100%;
+    float: left;
+}
+
+.header-prospect .right-party .square span {
+    margin-left: 5px;
+    font-style: italic;
+}
+
+.sub-header-prospect  {
+    border-top: 2px solid #0D67C1;
+    border-right: 4px solid #0D67C1;
+    border-left: 4px solid #0D67C1;
+    height: 13em;
+    overflow: hidden;
+}
+
+.sub-header-prospect .left-party .line {
+     height: 2em;
+     text-align: right;
+ }
+
+.sub-header-prospect .left-party .line span {
+    margin-right: 5px;
+    font-style: italic;
+}
+
+.sub-header-prospect .left-party .line.border {
+    border-top: 1px solid #0D67C1;
+    height: 1.9em;
+}
+
+.sub-header-prospect .center-party .line {
+    height: 2em;
+}
+
+.sub-header-prospect .center-party .line.grp {
+    border-top: 1px solid #0D67C1;
+}
+
+.sub-header-prospect .center-party .line span {
+    margin-left: 5px;
+    font-style: italic;
+}
+
+.sub-header-prospect .center-party {
+    width: 45%;
+}
+.sub-header-prospect .right-party{
+    width: 46%;
+    border-left:2px solid #0D67C1;
+}
+
+.sub-header-prospect .right-party .first-line {
+    width: 100%;
+    height: 20%;
+    border-bottom:2px solid #0D67C1;
+}
+
+.sub-header-prospect .right-party .first-line .square {
+    height: 100%;
+    border-left:2px solid #0D67C1;
+    float:left;
+    font-style: italic;
+}
+
+.sub-header-prospect .right-party .first-line .square span {
+    margin-left:4px;
+}
+
+.sub-header-prospect .right-party .first-line .square.first {
+    width: 14%;
+    border-left:none !important;
+    background-color:#94ff9b;
+}
+
+.sub-header-prospect .right-party .second-line .square.first {
+    text-align:center;
+}
+.sub-header-prospect .right-party .second-line .square.first .stat{
+    text-align:left;
+}
+.sub-header-prospect .right-party .first-line .square.second {
+    width: 14%;
+}
+
+.sub-header-prospect .right-party .first-line .square.third {
+    width: 14%;
+}
+.sub-header-prospect .right-party .first-line .square.four {
+    width: 14%;
+}
+.sub-header-prospect .right-party .first-line .square.five {
+    width: 19.5%;
+}
+.sub-header-prospect .right-party .first-line .square.six {
+    width: 19.5%;
+}
+
+.sub-header-prospect .right-party .second-line {
+    width: 100%;
+    height: 80%;
+    border-bottom:2px solid #0D67C1;
+}
+
+.sub-header-prospect .right-party .second-line .square {
+    height: 100%;
+    border-left:2px dashed #0D67C1;
+    float:left;
+}
+
+.sub-header-prospect .right-party .second-line .square.first {
+    border-left:none !important;
+}
+
+.sub-header-prospect .right-party .second-line .square.second {
+    border-left:2px solid #0D67C1 !important;
+}
+
+.sub-header-prospect .right-party .second-line .square {
+    width: 14%;
+}
+
+
+.sub-header-prospect .right-party .second-line .square .line {
+    height: 19px;
+    border-bottom: 1px solid #0000ff40;
+    font-style: italic;
+}
+
+.sub-header-prospect .right-party .second-line .square.first .line, .sub-header-prospect .right-party .second-line .square .stat {
+    border-bottom: none;
+}
+
+
+
+.sub-header-prospect .right-party .second-line .square .stat {
+    font-size: 13px;
+    margin-left: 4px;
+    font-style: italic;
+    margin-bottom: 2px;
+}
+
+
+.left-party, .center-party {
+    float:left;
+    height: 100%;
+    position: relative;
+}
+.right-party {
+    float:right;
+    height: 100%;
+    position: relative;
+}
+
+.left-party {
+    border-right: 2px solid #0D67C1;
+    width: 8%;
+}
+
+.main-prospect {
+    border: 4px solid #0D67C1;
+
+    height: 24em;
+    overflow: scroll;
+}
+
+.main-prospect .collab {
+    height: 5em;
+    width:100%;
+}
+.main-prospect .head {
+    height: 1em;
+    width:100%;
+}
+
+.main-prospect .collab:nth-child(even) {background: #FFF}
+.main-prospect .collab:nth-child(odd) {background: #c9c9c9}
+
+.main-prospect .collab .left-party {
+}
+
+
+.main-prospect .head .left-party .line {
+    text-align: right;
+}
+.main-prospect .collab .left-party .line {
+    height: 50%;
+    text-align: right;
+}
+
+.main-prospect .collab .left-party .line span, .main-prospect .head .left-party .line span {
+    margin-right: 4px;
+}
+.main-prospect .collab .center-party, .main-prospect .head .center-party {
+    overflow: hidden;
+    width: 52.4%;
+}
+
+.main-prospect .collab .center-party .col, .main-prospect .head .center-party .col {
+    float:left;
+    height: 100%;
+}
+
+.main-prospect .collab .center-party .line {
+    height: 50%;
+}
+
+.main-prospect .collab .center-party .line span, .main-prospect .head .center-party .line span {
+    margin-left: 4px;
+    font-style: italic;
+
+}
+
+
+.main-prospect .collab .center-party .first-col, .main-prospect .head .center-party .first-col {
+    width: 8%;
+    border-right: 2px dashed #0d67c1;
+}
+
+.main-prospect .collab .center-party .second-col, .main-prospect .collab .center-party .third-col,
+.main-prospect .head .center-party .second-col, .main-prospect .head .center-party .third-col {
+    width: 39.4%;
+    border-right: 2px dashed #0d67c1;
+}
+.main-prospect .collab .center-party .four-col, .main-prospect .head .center-party .four-col {
+    width: 12%;
+    border-right: 2px solid #0d67c1;
+}
+
+.main-prospect .collab .right-party, .main-prospect .head .right-party {
+    overflow: hidden;
+    width: 39.4%;
+}
+
+.main-prospect .collab .right-party .line {
+    height: 50%;
+}
+
+
+
+.main-prospect .collab .right-party .square, .main-prospect .head .right-party .square {
+    width: 16.3%;
+    float:left;
+    border-right:2px dashed #0d67c1;
+    height: 100%;
+}
+
+.main-prospect .collab .right-party .square span, .main-prospect .head .right-party .square span {
+   margin-left:4px;
+    font-style: italic;
+}
+
+
+.main-prospect .collab .right-party .square:last-child, .main-prospect .head .right-party .square:last-child{
+    border:none;
+}
+
+
+
+.footer-prospect {
+    border-bottom: 4px solid #0D67C1;
+    border-right: 4px solid #0D67C1;
+    border-left: 4px solid #0D67C1;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    height:8em;
+}
+
+.footer-prospect .left-party img {
+    width: 60px;
+    position: absolute;
+    right: 2em;
+    bottom: 10px;
+}
+
+.footer-prospect .center-party .first-line {
+    height: 80%;
+
+}
+.footer-prospect .center-party .second-line {
+    height: 20%;
+    margin-left: 4px;
+}
