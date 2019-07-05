@@ -1,5 +1,5 @@
 body {
-    width: 1400px;
+    width: 800px;
     margin:0 auto;
 }
 
@@ -16,8 +16,26 @@ body {
 }
 
 .data {
-    font-size: 10px;
-    font-style: normal;
+    font-size:10px;
+    width: 88%;
+    border: none;
+    border-bottom: 0.1px black solid;
+}
+
+.left-party, .center-party {
+    float:left;
+    height: 100%;
+    position: relative;
+}
+.right-party {
+    float:right;
+    height: 100%;
+    position: relative;
+}
+
+.left-party {
+    border-right: 2px solid #0D67C1;
+    width: 9%;
 }
 
 .header-prospect {
@@ -26,7 +44,7 @@ body {
     border-left: 4px solid #0D67C1;
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
-    height: 3em;
+    height: 2.5em;
     overflow: hidden;
 }
 
@@ -41,18 +59,19 @@ body {
 }
 
 .header-prospect .center-party {
-    width: 45.5%;
+    width: 44%;
 }
 .header-prospect .center-party span {
     margin-left: 5px;
     font-style: italic;
 }
 .header-prospect .right-party{
-    width: 46.1%;
+    width: 46%;
+    border-left: 2px solid #0D67C1;
 }
 
 .header-prospect .right-party .square:first-child {
-    border-left: 2px solid #0D67C1;
+    border-left: none;
     width: 28.5%;
     height: 100%;
     float: left;
@@ -60,13 +79,13 @@ body {
 
 .header-prospect .right-party .square {
     border-left: 2px solid #0D67C1;
-    width: 13.7%;
+    width: 14%;
     height: 100%;
     float: left;
 }
 
 
-.header-prospect .right-party #creation {
+.header-prospect .right-party .square-outsize {
     width: 19.8%;
 }
 
@@ -74,6 +93,65 @@ body {
     margin-left: 5px;
     font-style: italic;
 }
+
+/* second header  */
+
+.second-header-prospect {
+    border-top: 2px solid #0D67C1;
+    border-right: 4px solid #0D67C1;
+    border-left: 4px solid #0D67C1;
+    height: 2.5em;
+    overflow: hidden;
+}
+
+.second-header-prospect .left-party{
+    text-align:right;
+}
+
+
+.second-header-prospect .left-party span{
+    margin-right: 5px;
+    font-style: italic;
+}
+
+.second-header-prospect .center-party {
+    width: 44%;
+}
+.second-header-prospect .center-party span {
+    margin-left: 5px;
+    font-style: italic;
+}
+.second-header-prospect .right-party{
+    width: 46%;
+    border-left: 2px solid #0D67C1;
+}
+
+.second-header-prospect .right-party .square:first-child {
+    border-left: none;
+    width: 14%;
+    height: 100%;
+    float: left;
+}
+
+.second-header-prospect .right-party .square {
+    border-left: 2px solid #0D67C1;
+    width: 14%;
+    height: 100%;
+    float: left;
+}
+
+
+.second-header-prospect .right-party .square-outsize {
+    width: 19.8%;
+}
+
+.second-header-prospect .right-party .square span {
+    margin-left: 5px;
+    font-style: italic;
+}
+
+
+/* sub header */
 
 .sub-header-prospect  {
     border-top: 2px solid #0D67C1;
@@ -112,7 +190,7 @@ body {
 }
 
 .sub-header-prospect .center-party {
-    width: 45%;
+    width: 44%;
 }
 .sub-header-prospect .right-party{
     width: 46%;
@@ -207,23 +285,6 @@ body {
     margin-left: 4px;
     font-style: italic;
     margin-bottom: 2px;
-}
-
-
-.left-party, .center-party {
-    float:left;
-    height: 100%;
-    position: relative;
-}
-.right-party {
-    float:right;
-    height: 100%;
-    position: relative;
-}
-
-.left-party {
-    border-right: 2px solid #0D67C1;
-    width: 5%;
 }
 
 .main-prospect {

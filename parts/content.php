@@ -4,19 +4,40 @@
         <div class="left-party">
             <span class="title">siren</span>
             <br>
-            <span class="data" id="siren">166 288 304</span>
+            <input type="text" class="data" id="siren" value="112 342 303">
         </div>
         <div class="center-party">
             <span class="title">raison social</span>
             <br>
-            <span class="data" id="raison-social">STÉ CONSTRUCTION RÉPARATION MATÉRIEL AÉRONAUTIQUE</span>
+            <input class="data" id="raison-social" value="STÉ CONSTRUCTION RÉPARATION MATÉRIEL AÉRONAUTIQUE">
         </div>
         <div class="right-party">
             <div class="square"><span class="title">sigle</span></div>
             <div class="square"><span class="title">status</span></div>
-            <div class="square"> <span class="title">capital</span></div>
-            <div class="square" id="creation"> <span class="title">création</span></div>
+            <div class="square"> <span class="title">capital (m€)</span></div>
+            <div class="square square-outsize"> <span class="title">création</span></div>
             <div class="square"> <span class="title">fil./gr.</span></div>
+        </div>
+    </div>
+
+    <div class="second-header-prospect">
+        <div class="left-party">
+            <span class="title">ape-naf</span>
+            <br>
+            <span class="data" id="ape-naf">166 288 304</span>
+        </div>
+        <div class="center-party">
+            <span class="title">libellé</span>
+            <br>
+            <span class="data" id="raison-social">Réparation & maintenance d'aeronefs &  engins spaciaux</span>
+        </div>
+        <div class="right-party">
+            <div class="square"> <span class="title">maj</span> </div>
+            <div class="square"> <span class="title">affec</span> </div>
+            <div class="square"> <span class="title">suppl</span> </div>
+            <div class="square"> <span class="title">établ.</span> </div>
+            <div class="square square-outsize"> <span class="title">gref.TC</span> </div>
+            <div class="square"> <span class="title">tva intra</span> </div>
         </div>
     </div>
     <div class="sub-header-prospect">
