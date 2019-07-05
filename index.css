@@ -10,13 +10,23 @@ body {
     height: 300px;
 }
 
+.title {
+    font-size: 7px;
+    font-family: Helvetica Neue;
+}
+
+.data {
+    font-size: 10px;
+    font-style: normal;
+}
+
 .header-prospect {
     border-top: 4px solid #0D67C1;
     border-right: 4px solid #0D67C1;
     border-left: 4px solid #0D67C1;
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
-    height: 5em;
+    height: 3em;
     overflow: hidden;
 }
 
@@ -31,29 +41,33 @@ body {
 }
 
 .header-prospect .center-party {
-    width: 58%;
+    width: 45.5%;
 }
 .header-prospect .center-party span {
     margin-left: 5px;
     font-style: italic;
 }
 .header-prospect .right-party{
-    width: 33%;
+    width: 46.1%;
 }
 
 .header-prospect .right-party .square:first-child {
     border-left: 2px solid #0D67C1;
-    width: 39.5%;
+    width: 28.5%;
+    height: 100%;
+    float: left;
+}
+
+.header-prospect .right-party .square {
+    border-left: 2px solid #0D67C1;
+    width: 13.7%;
     height: 100%;
     float: left;
 }
 
 
-.header-prospect .right-party .square {
-    border-left: 2px solid #0D67C1;
-    width: 27.5%;
-    height: 100%;
-    float: left;
+.header-prospect .right-party #creation {
+    width: 19.8%;
 }
 
 .header-prospect .right-party .square span {
@@ -209,7 +223,7 @@ body {
 
 .left-party {
     border-right: 2px solid #0D67C1;
-    width: 8%;
+    width: 5%;
 }
 
 .main-prospect {
