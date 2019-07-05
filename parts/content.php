@@ -647,15 +647,448 @@
 
             </div>
         </div>
+
+        <div class="collab">
+            <div class="left-party">
+                <div class="line">
+                    <span class="title">alea</span>
+                    <br>
+                    <input type="text" class="data" value="1234">
+                </div>
+                <div class="line">
+                    <span class="title">tél.prof.</span>
+                    <br>
+                    <input type="text" class="data tel" value="09 33 34 39 04">
+                </div>
+            </div>
+            <div class="center-party">
+                <div class="first-col  col">
+                    <div class="line">
+                        <span class="title">civ</span>
+                        <br>
+                        <input type="text" class="data upper-input" value="r">
+                    </div>
+                    <div class="line green">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="second-col  col">
+                    <div class="line">
+                        <span class="title">prénom</span>
+                        <br>
+                        <input type="text" class="data" value="José-Marie">
+                    </div>
+                    <div class="line">
+                        <span class="title">tél.perso</span>
+                        <br>
+                        <input type="text" class="data tel" value="01 23 43 49 32">
+                    </div>
+                </div>
+
+                <div class="third-col  col">
+                    <div class="line">
+                        <span class="title">NOM</span>
+                        <br>
+                        <input type="text" class="data upper-input" value="LOUIS">
+                    </div>
+                    <div class="line">
+                        <span class="title">@mail.prof</span>
+                        <br>
+                        <input type="text" class="data" value="jml@crma.fr">
+                    </div>
+                </div>
+            </div>
+            <div class="right-party">
+                <div class="square">
+                    <div class="line">
+                        <span class="title">resp.</span>
+                        <br>
+                        <input type="text" class="data upper-input" value="pca">
+                    </div>
+                    <div class="line">
+                        <span class="title green">dah <input type="checkbox">
+                        </span>
+                        <span class="data">15/07/17</span>
+                    </div>
+                </div>
+                <div class="square">
+                    <div class="line">
+                        <span class="title">contact</span>
+                        <br>
+                        <input type="text" class="data upper-input" value="pla">
+                    </div>
+                    <div class="line ">
+                        <span class="title green">dah <input type="checkbox">
+                        </span>
+                        <span class="data">01/07/17</span>
+                    </div>
+                </div>
+                <div class="square">
+                    <div class="line">
+                        <span class="title">tact2</span>
+                        <br>
+                        <input type="text" class="data upper-input" value="rlsty">
+                    </div>
+                    <div class="line ">
+                        <span class="title green">dah <input type="checkbox">
+                        </span>
+                        <span class="data">20/07/17</span>
+                    </div>
+                </div>
+                <div class="square">
+                    <div class="line">
+                        <span class="title">tact3</span>
+                        <br>
+                        <input type="text" class="data upper-input" value="rltiv">
+                    </div>
+                    <div class="line ">
+                        <span class="title green">dah <input type="checkbox">
+                        </span>
+                        <span class="data">01/10/17</span>
+                    </div>
+                </div>
+                <div class="square">
+                    <div class="line">
+                        <span class="title">tact4</span>
+                        <br>
+                        <input type="text" class="data upper-input" value="">
+                    </div>
+                    <div class="line ">
+                        <span class="title green">dah <input type="checkbox">
+                        </span>
+                        <span class="data"></span>
+                    </div>
+                </div>
+                <div class="square">
+                    <div class="line">
+                        <span class="title">tact5</span>
+                        <br>
+                        <input type="text" class="data upper-input" value="">
+                    </div>
+                    <div class="line ">
+                        <span class="title green">dah <input type="checkbox">
+                        </span>
+                        <span class="data"></span>
+                    </div>
+                </div>
+                <div class="square">
+                    <div class="line">
+                        <span class="title">tact6</span>
+                        <br>
+                        <input type="text" class="data upper-input" value="">
+                    </div>
+                    <div class="line ">
+                        <span class="title green">dah <input type="checkbox">
+                        </span>
+                        <span class="data"></span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="collab">
+            <div class="left-party">
+                <div class="line">
+                    <span class="title">alea</span>
+                    <br>
+                    <input type="text" class="data" value="1234">
+                </div>
+                <div class="line">
+                    <span class="title">tél.prof.</span>
+                    <br>
+                    <input type="text" class="data tel" value="09 33 34 39 04">
+                </div>
+            </div>
+            <div class="center-party">
+                <div class="first-col  col">
+                    <div class="line">
+                        <span class="title">civ</span>
+                        <br>
+                        <input type="text" class="data upper-input" value="r">
+                    </div>
+                    <div class="line green">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="second-col  col">
+                    <div class="line">
+                        <span class="title">prénom</span>
+                        <br>
+                        <input type="text" class="data" value="José-Marie">
+                    </div>
+                    <div class="line">
+                        <span class="title">tél.perso</span>
+                        <br>
+                        <input type="text" class="data tel" value="01 23 43 49 32">
+                    </div>
+                </div>
+
+                <div class="third-col  col">
+                    <div class="line">
+                        <span class="title">NOM</span>
+                        <br>
+                        <input type="text" class="data upper-input" value="LOUIS">
+                    </div>
+                    <div class="line">
+                        <span class="title">@mail.prof</span>
+                        <br>
+                        <input type="text" class="data" value="jml@crma.fr">
+                    </div>
+                </div>
+            </div>
+            <div class="right-party">
+                <div class="square">
+                    <div class="line">
+                        <span class="title">resp.</span>
+                        <br>
+                        <input type="text" class="data upper-input" value="pca">
+                    </div>
+                    <div class="line">
+                        <span class="title green">dah <input type="checkbox">
+                        </span>
+                        <span class="data">15/07/17</span>
+                    </div>
+                </div>
+                <div class="square">
+                    <div class="line">
+                        <span class="title">contact</span>
+                        <br>
+                        <input type="text" class="data upper-input" value="pla">
+                    </div>
+                    <div class="line ">
+                        <span class="title green">dah <input type="checkbox">
+                        </span>
+                        <span class="data">01/07/17</span>
+                    </div>
+                </div>
+                <div class="square">
+                    <div class="line">
+                        <span class="title">tact2</span>
+                        <br>
+                        <input type="text" class="data upper-input" value="rlsty">
+                    </div>
+                    <div class="line ">
+                        <span class="title green">dah <input type="checkbox">
+                        </span>
+                        <span class="data">20/07/17</span>
+                    </div>
+                </div>
+                <div class="square">
+                    <div class="line">
+                        <span class="title">tact3</span>
+                        <br>
+                        <input type="text" class="data upper-input" value="rltiv">
+                    </div>
+                    <div class="line ">
+                        <span class="title green">dah <input type="checkbox">
+                        </span>
+                        <span class="data">01/10/17</span>
+                    </div>
+                </div>
+                <div class="square">
+                    <div class="line">
+                        <span class="title">tact4</span>
+                        <br>
+                        <input type="text" class="data upper-input" value="">
+                    </div>
+                    <div class="line ">
+                        <span class="title green">dah <input type="checkbox">
+                        </span>
+                        <span class="data"></span>
+                    </div>
+                </div>
+                <div class="square">
+                    <div class="line">
+                        <span class="title">tact5</span>
+                        <br>
+                        <input type="text" class="data upper-input" value="">
+                    </div>
+                    <div class="line ">
+                        <span class="title green">dah <input type="checkbox">
+                        </span>
+                        <span class="data"></span>
+                    </div>
+                </div>
+                <div class="square">
+                    <div class="line">
+                        <span class="title">tact6</span>
+                        <br>
+                        <input type="text" class="data upper-input" value="">
+                    </div>
+                    <div class="line ">
+                        <span class="title green">dah <input type="checkbox">
+                        </span>
+                        <span class="data"></span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="collab">
+            <div class="left-party">
+                <div class="line">
+                    <span class="title">alea</span>
+                    <br>
+                    <input type="text" class="data" value="1234">
+                </div>
+                <div class="line">
+                    <span class="title">tél.prof.</span>
+                    <br>
+                    <input type="text" class="data tel" value="09 33 34 39 04">
+                </div>
+            </div>
+            <div class="center-party">
+                <div class="first-col  col">
+                    <div class="line">
+                        <span class="title">civ</span>
+                        <br>
+                        <input type="text" class="data upper-input" value="r">
+                    </div>
+                    <div class="line green">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="second-col  col">
+                    <div class="line">
+                        <span class="title">prénom</span>
+                        <br>
+                        <input type="text" class="data" value="José-Marie">
+                    </div>
+                    <div class="line">
+                        <span class="title">tél.perso</span>
+                        <br>
+                        <input type="text" class="data tel" value="01 23 43 49 32">
+                    </div>
+                </div>
+
+                <div class="third-col  col">
+                    <div class="line">
+                        <span class="title">NOM</span>
+                        <br>
+                        <input type="text" class="data upper-input" value="LOUIS">
+                    </div>
+                    <div class="line">
+                        <span class="title">@mail.prof</span>
+                        <br>
+                        <input type="text" class="data" value="jml@crma.fr">
+                    </div>
+                </div>
+            </div>
+            <div class="right-party">
+                <div class="square">
+                    <div class="line">
+                        <span class="title">resp.</span>
+                        <br>
+                        <input type="text" class="data upper-input" value="pca">
+                    </div>
+                    <div class="line">
+                        <span class="title green">dah <input type="checkbox">
+                        </span>
+                        <span class="data">15/07/17</span>
+                    </div>
+                </div>
+                <div class="square">
+                    <div class="line">
+                        <span class="title">contact</span>
+                        <br>
+                        <input type="text" class="data upper-input" value="pla">
+                    </div>
+                    <div class="line ">
+                        <span class="title green">dah <input type="checkbox">
+                        </span>
+                        <span class="data">01/07/17</span>
+                    </div>
+                </div>
+                <div class="square">
+                    <div class="line">
+                        <span class="title">tact2</span>
+                        <br>
+                        <input type="text" class="data upper-input" value="rlsty">
+                    </div>
+                    <div class="line ">
+                        <span class="title green">dah <input type="checkbox">
+                        </span>
+                        <span class="data">20/07/17</span>
+                    </div>
+                </div>
+                <div class="square">
+                    <div class="line">
+                        <span class="title">tact3</span>
+                        <br>
+                        <input type="text" class="data upper-input" value="rltiv">
+                    </div>
+                    <div class="line ">
+                        <span class="title green">dah <input type="checkbox">
+                        </span>
+                        <span class="data">01/10/17</span>
+                    </div>
+                </div>
+                <div class="square">
+                    <div class="line">
+                        <span class="title">tact4</span>
+                        <br>
+                        <input type="text" class="data upper-input" value="">
+                    </div>
+                    <div class="line ">
+                        <span class="title green">dah <input type="checkbox">
+                        </span>
+                        <span class="data"></span>
+                    </div>
+                </div>
+                <div class="square">
+                    <div class="line">
+                        <span class="title">tact5</span>
+                        <br>
+                        <input type="text" class="data upper-input" value="">
+                    </div>
+                    <div class="line ">
+                        <span class="title green">dah <input type="checkbox">
+                        </span>
+                        <span class="data"></span>
+                    </div>
+                </div>
+                <div class="square">
+                    <div class="line">
+                        <span class="title">tact6</span>
+                        <br>
+                        <input type="text" class="data upper-input" value="">
+                    </div>
+                    <div class="line ">
+                        <span class="title green">dah <input type="checkbox">
+                        </span>
+                        <span class="data"></span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </div>
 
     <div class="footer-prospect">
         <div class="left-party">
+            <div class="line">
+                <span class="title">note 3</span> <br>
+            </div>
+            <div class="line">
+                <span class="title">note 4</span>
+            </div>
             <img src="./img/logo-mini.png" alt="">
         </div>
         <div class="center-party">
-            <div class="first-line"></div>
-            <div class="second-line">PLAket - RELanceX - TOKen - Réunion DH - CARnetX - ...</div>
+            <div class="line">
+                <input type="text" class="data">
+            </div>
+            <div class="line">
+                <input type="text" class="data">
+            </div>
+            <div class="line">
+                <input type="text" class="data">
+            </div>
+            <div class="line">
+                <input type="text" class="data">
+            </div>
         </div>
         <div class="right-party"></div>
     </div>
