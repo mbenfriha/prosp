@@ -15,7 +15,7 @@
     </div>
     <div class="sub-header-prospect">
         <div class="left-party">
-            <div class="line"><span>APE-NAF</span></div>
+            <div class="line"><span>APE - NAF</span></div>
             <div class="line"><span>copos</span></div>
             <div class="line"><span>tel</span></div>
             <div class="line border"></div>
