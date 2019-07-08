@@ -70,7 +70,7 @@
         </div>
         <div class="right-party">
             <div class="line">
-                <div class="square blue-color">
+                <div class="square">
                     <span class="title">maj</span>
                     <br>
                     <input class="data date-input" type="date" id="maj-h" value="2019-06-29">
