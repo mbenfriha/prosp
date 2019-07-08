@@ -4,33 +4,33 @@
         <div class="left-party">
             <span class="title">siren</span>
             <br>
-            <input type="text" class="data" id="siren" value="112 342 303">
+            <input type="text" class="data left-input" id="siren" value="775 664 873">
         </div>
         <div class="center-party">
-            <span class="title">raison social</span>
+            <span class="title">raison sociale</span>
             <br>
-            <input class="data upper-input" id="raison-social" value="STÉ CONSTRUCTION RÉPARATION MATÉRIEL AÉRONAUTIQUE">
+            <input class="data upper-input" id="raison-social" value="BOUYGUES ENERGIES & SERVICES (ex ETDE)">
         </div>
         <div class="right-party">
             <div class="square">
-                <span class="title">sigle</span>
+                <span class="title">Gr.</span>
                 <br>
-                <input type="text" class="data upper-input" id="sigle" value="crma">
+                <input type="text" class="data upper-input" id="gr" value="Bouygues-Construction">
+            </div>
+            <div class="square">
+                <span class="title">fill</span>
+                <br>
+                <input type="text" class="data upper-input center-input" id="fill" value="100%">
             </div>
             <div class="square">
                 <span class="title">statut</span>
                 <br>
-                <input type="text" class="data upper-input" id="statut" value="sa">
-            </div>
-            <div class="square">
-                <span class="title">capital (m€)</span>
-                <br>
-                <input type="number" class="data" id="capital" value="7800">
+                <input type="text" class="data upper-input center-input" id="statut" value="SASU">
             </div>
             <div class="square square-outsize">
                 <span class="title">création</span>
                 <br>
-                <input type="date" class="data date-input" id="create" value="1978-01-01">
+                <input style="font-size: 11px;" type="date" class="data date-input" id="create" value="1978-01-01">
             </div>
             <div class="square">
                 <span class="title">fil./gr.</span>
@@ -45,143 +45,154 @@
         <div class="left-party">
             <span class="title">ape-naf</span>
             <br>
-            <input class="data" id="ape-naf" type="text" value="3316Z">
+            <input class="data left-input" id="ape-naf" type="text" value="4321A">
             <br>
             <span class="title">copos</span>
             <br>
-            <input class="data" id="copos" type="text" value="78990">
+            <input class="data left-input" id="copos" type="text" value="78180">
             <br>
-            <span class="title">tél.</span>
+            <span class="title left-input">tél.</span>
             <br>
-            <input class="data" id="tel" type="text" value="01 30 68 00 68">
+            <input class="data left-input" id="tel" type="text" value="01 30 68 00 68">
         </div>
         <div class="center-party">
             <span class="title">libellé</span>
             <br>
-            <input class="data" type="text" id="libelle" value="Réparation & maintenance d'aeronefs &  engins spaciaux">
+            <input class="data" type="text" id="libelle" value="Travaux d'installation électrique dans tous locaux">
             <br>
             <span class="title">ville</span>
             <br>
-            <input class="data upper-input" type="text" id="ville" value="élancourt">
+            <input class="data upper-input" type="text" id="ville" value="MONTIGNY LE BRETONNEUX">
             <br>
             <span class="title">rue</span>
             <br>
-            <input class="data upper-input" type="text" id="rue" value="16 place de l'iris, tours cb 21">
+            <input class="data upper-input" type="text" id="rue" value="19 RUE GEORGE STEPHENSON">
         </div>
         <div class="right-party">
-          <div class="line">
-              <div class="square">
-                  <span class="title">maj</span>
-                  <br>
-                  <input class="data date-input" type="date" id="maj-h" value="2019-06-29">
-              </div>
-              <div class="square">
-                  <span class="title">affec</span>
-                  <br>
-                  <input class="data upper-input" id="affec-h" type="text" value="mija">
-              </div>
-              <div class="square">
-                  <span class="title">suppl.</span>
-                  <br>
-                  <input class="data upper-input" id="suppl-h" type="text" value="ajim">
-              </div>
-              <div class="square">
-                  <span class="title">établ.</span>
-                  <br>
-                  <input class="data" id="etabl-h" type="number" value="3">
-              </div>
-              <div class="square square-outsize">
-                  <span class="title">gref.TC</span>
-                  <br>
-                  <input class="data" id="gref-h" type="text" value="Versailles">
-              </div>
-              <div class="square">
-                  <span class="title">tva intra</span>
-                  <br>
-                  <input class="data upper-input" id="tva-h" type="text" value="fr">
-              </div>
-          </div>
-          <div class="line line-year">
-              <div class="square caht">
-                  <span class="title">CAHT 2020</span>
-                  <br>
-                  <input class="data" type="text" id="caht-first" value="">
-              </div>
-              <div class="square">
-                  <span class="title">Export</span>
-                  <br>
-                  <input class="data" id="export-first" type="text" value="">
-              </div>
-              <div class="square">
-                  <span class="title">Effectif</span>
-                  <br>
-                  <input class="data" id="effectif-first" type="text" value="">
-              </div>
-              <div class="square">
-                  <span class="title">Ch.Pers.</span>
-                  <br>
-                  <input class="data" id="chpers-first" type="text" value="">
-              </div>
-              <div class="square">
-                  <span class="title">R+D</span>
-                  <br>
-                  <input class="data" id="rd-first" type="text" value="">
-              </div>
-              <div class="square">
-                  <span class="title">Result (B,N)</span>
-                  <br>
-                  <input class="data" id="result-first" type="text" value="">
-              </div>
-              <div class="square">
-                  <span class="title">Tréso</span>
-                  <br>
-                  <input class="data" id="treso-first" type="text" value="">
-              </div>
-          </div>
-          <div class="line line-year">
-              <div class="square caht">
-                  <span class="title">2019</span>
-                  <br>
-                  <input class="data" type="text" id="caht-second" value="">
-              </div>
-              <div class="square">
-                  <span class="title"></span>
-                  <br>
-                  <input class="data" id="export-second" type="text" value="">
-              </div>
-              <div class="square">
-                  <span class="title"></span>
-                  <br>
-                  <input class="data" id="effectif-second" type="text" value="">
-              </div>
-              <div class="square">
-                  <span class="title"></span>
-                  <br>
-                  <input class="data" id="chpers-second" type="text" value="">
-              </div>
-              <div class="square">
-                  <span class="title"></span>
-                  <br>
-                  <input class="data" id="rd-second" type="text" value="">
-              </div>
-              <div class="square">
-                  <span class="title"></span>
-                  <br>
-                  <input class="data" id="result-second" type="text" value="">
-              </div>
-              <div class="square">
-                  <span class="title"></span>
-                  <br>
-                  <input class="data" id="treso-second" type="text" value="">
-              </div>
-          </div>
+            <div class="line">
+                <div class="square blue-color">
+                    <span class="title">maj</span>
+                    <br>
+                    <input class="data date-input" type="date" id="maj-h" value="2019-06-29">
+                </div>
+                <div class="square">
+                    <span class="title">affec</span>
+                    <br>
+                    <input class="data upper-input center-input" id="affec-h" type="text" value="mija">
+                </div>
+                <div class="square">
+                    <span class="title">suppl.</span>
+                    <br>
+                    <input class="data upper-input center-input" id="suppl-h" type="text" value="ajim">
+                </div>
+                <div class="square">
+                    <span class="title">établ.</span>
+                    <br>
+                    <input class="data center-input" id="etabl-h" type="number" value="152">
+                </div>
+                <div class="square square-outsize">
+                    <span class="title">capital (k€)</span>
+                    <br>
+                    <input class="data center-input" id="capital-h" type="text" value="50 574">
+                </div>
+                <div class="square">
+                    <span class="title">RCS</span>
+                    <br>
+                    <input class="data" id="rcs-h" type="text" value="Versailles">
+                </div>
+            </div>
+            <div class="line line-year">
+                <div class="square caht">
+                    <span class="title">CAHT 2020</span>
+                    <br>
+                    <input class="data" type="text" id="caht-first" value="">
+                </div>
+                <div class="square">
+                    <span class="title">Export</span>
+                    <br>
+                    <input class="data" id="export-first" type="text" value="">
+                </div>
+                <div class="square">
+                    <span class="title">Effectif</span>
+                    <br>
+                    <input class="data" id="effectif-first" type="text" value="">
+                </div>
+                <div class="square">
+                    <span class="title">Ch.Pers.</span>
+                    <br>
+                    <input class="data" id="chpers-first" type="text" value="">
+                </div>
+                <div class="square">
+                    <span class="title">R+D</span>
+                    <br>
+                    <input class="data" id="rd-first" type="text" value="">
+                </div>
+                <div class="square">
+                    <span class="title">Result (B,N)</span>
+                    <br>
+                    <input class="data" id="result-first" type="text" value="">
+                </div>
+                <div class="square">
+                    <span class="title">Tréso</span>
+                    <br>
+                    <input class="data" id="treso-first" type="text" value="">
+                </div>
+            </div>
+            <div class="line line-year">
+                <div class="square caht">
+                    <span class="title">2019</span>
+                    <br>
+                    <input class="data" type="text" id="caht-second" value="">
+                </div>
+                <div class="square">
+                    <span class="title"></span>
+                    <br>
+                    <input class="data" id="export-second" type="text" value="">
+                </div>
+                <div class="square">
+                    <span class="title"></span>
+                    <br>
+                    <input class="data" id="effectif-second" type="text" value="">
+                </div>
+                <div class="square">
+                    <span class="title"></span>
+                    <br>
+                    <input class="data" id="chpers-second" type="text" value="">
+                </div>
+                <div class="square">
+                    <span class="title"></span>
+                    <br>
+                    <input class="data" id="rd-second" type="text" value="">
+                </div>
+                <div class="square">
+                    <span class="title"></span>
+                    <br>
+                    <input class="data" id="result-second" type="text" value="">
+                </div>
+                <div class="square">
+                    <span class="title"></span>
+                    <br>
+                    <input class="data" id="treso-second" type="text" value="">
+                </div>
+            </div>
         </div>
     </div>
     <div class="sub-header-prospect">
         <div class="left-party">
-            <div class="line">
-                <span class="title">web</span>
-                <br>
+            <div class="line line-padding-border ">
+                <div class="col-2">
+                    <span class="title">siret</span>
+                    <br>
+                    <input type="text" class="data" id="siret" value="03263">
+                </div>
+                <div class="col-2">
+                    <span class="title" >fac</span>
+                    <br>
+                    <input type="text" class="data" id="fac" value="FR 36">
+
+                </div>
+
+
             </div>
             <div class="line">
                 <span class="title">note1</span>
@@ -191,20 +202,16 @@
             </div>
         </div>
         <div class="center-party">
-            <div class="line">
-                <span  class="title"></span>
+            <div class="line line-padding-border ">
+                <span  class="title">web</span>
                 <br>
                 <input type="text" class="data" id="web" value="https://crma.fr">
             </div>
             <div class="line">
-                <span  class="title"></span>
-                <br>
-                <input type="text" class="data" id="notef" value="">
+                <textarea type="text" class="data note" id="notef" value=""></textarea>
             </div>
             <div class="line">
-                <span  class="title"></span>
-                <br>
-                <input type="text" class="data" id="noteS" value="">
+                <textarea type="text" class="data note" id="noteS" value=""></textarea>
             </div>
         </div>
         <div class="right-party">
@@ -249,7 +256,7 @@
                 <div class="square caht">
                     <span class="title">2017</span>
                     <br>
-                    <input class="data" type="text" id="maj-four" value="">
+                    <input class="data " type="text" id="maj-four" value="963 351">
                 </div>
                 <div class="square">
                     <span class="title"></span>
@@ -259,12 +266,12 @@
                 <div class="square">
                     <span class="title"></span>
                     <br>
-                    <input class="data" id="effectif-four" type="text" value="">
+                    <input class="data" id="effectif-four" type="text" value="4 493">
                 </div>
                 <div class="square">
                     <span class="title"></span>
                     <br>
-                    <input class="data" id="chpers-four" type="text" value="">
+                    <input class="data" id="chpers-four" type="text" value="273 978">
                 </div>
                 <div class="square">
                     <span class="title"></span>
@@ -274,19 +281,19 @@
                 <div class="square">
                     <span class="title"></span>
                     <br>
-                    <input class="data" id="result-four" type="text" value="">
+                    <input class="data" id="result-four" type="text" value="2028 n">
                 </div>
                 <div class="square">
                     <span class="title"></span>
                     <br>
-                    <input class="data" id="treso-four" type="text" value="">
+                    <input class="data" id="treso-four" type="text" value="93294">
                 </div>
             </div>
             <div class="line line-year">
                 <div class="square caht">
                     <span class="title">2016</span>
                     <br>
-                    <input class="data" type="text" id="maj-five" value="">
+                    <input class="data" type="text" id="maj-five" value="918 496">
                 </div>
                 <div class="square">
                     <span class="title"></span>
@@ -296,12 +303,12 @@
                 <div class="square">
                     <span class="title"></span>
                     <br>
-                    <input class="data" id="effectif-five" type="text" value="">
+                    <input class="data" id="effectif-five" type="text" value="4 637">
                 </div>
                 <div class="square">
                     <span class="title"></span>
                     <br>
-                    <input class="data" id="chpers-five" type="text" value="">
+                    <input class="data" id="chpers-five" type="text" value="259 676">
                 </div>
                 <div class="square">
                     <span class="title"></span>
@@ -311,12 +318,12 @@
                 <div class="square">
                     <span class="title"></span>
                     <br>
-                    <input class="data" id="result-five" type="text" value="">
+                    <input class="data" id="result-five" type="text" value="19 343 n">
                 </div>
                 <div class="square">
                     <span class="title"></span>
                     <br>
-                    <input class="data" id="treso-five" type="text" value="">
+                    <input class="data" id="treso-five" type="text" value="136 852">
                 </div>
             </div>
         </div>
@@ -1074,23 +1081,31 @@
             <div class="line">
                 <span class="title">note 4</span>
             </div>
-            <img src="./img/logo-mini.png" alt="">
         </div>
         <div class="center-party">
             <div class="line">
-                <input type="text" class="data">
+                <textarea class="data note" id="note3"></textarea>
             </div>
             <div class="line">
-                <input type="text" class="data">
-            </div>
-            <div class="line">
-                <input type="text" class="data">
-            </div>
-            <div class="line">
-                <input type="text" class="data">
+                <textarea class="data note" id="note4"></textarea>
             </div>
         </div>
-        <div class="right-party"></div>
+        <div class="right-party">
+            <div class="note-footer">
+                <div class="line">
+                    <span class="title">note 5</span>
+                    <input type="text" class="data note" id="note5" value="Depuis 1963, un millier de compagnons de l'Ordre du Minorange">
+                </div>
+                <div class="line">
+                    <span class="title">note 6</span>
+
+                    <input type="text" class="data note" id="note6" value="1984 rachat ETDE, nle appellation en 2013">
+                </div>
+            </div>
+            <div class="square">
+                <img src="./img/logo-mini.png" alt="">
+            </div>
+        </div>
     </div>
 
 </div>

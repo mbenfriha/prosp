@@ -13,14 +13,21 @@ body {
 .title {
     font-size: 7px;
     font-family: Helvetica Neue;
+    font-style: italic;
 }
 
 .data {
     background: transparent;
-    font-size:10px;
+    font-size:11px;
     width: 90%;
     border: none;
-    border-bottom: 0.1px black solid;
+   /* border-bottom: 0.1px black solid;*/
+    color: #1500fd;
+    font-weight:600;
+}
+
+.note {
+    font-size: 9px;
 }
 
 .left-party, .center-party {
@@ -36,11 +43,16 @@ body {
 
 .left-party {
     border-right: 2px solid #0D67C1;
-    width: 9%;
+    width: 11%;
 }
 
 .caht {
     text-align: right;
+}
+
+.col-2 {
+    width: 50%;
+    float: left;
 }
 
 .header-prospect {
@@ -64,7 +76,7 @@ body {
 }
 
 .header-prospect .center-party {
-    width: 43%;
+    width: 41%;
 }
 .header-prospect .center-party span {
     margin-left: 5px;
@@ -77,7 +89,7 @@ body {
 
 .header-prospect .right-party .square:first-child {
     border-left: none;
-    width: 28.5%;
+    width: 43%;
     height: 100%;
     float: left;
 }
@@ -122,7 +134,7 @@ body {
 }
 
 .second-header-prospect .center-party {
-    width: 43%;
+    width: 41%;
 }
 .second-header-prospect .center-party span {
     margin-left: 5px;
@@ -163,7 +175,8 @@ body {
 
 
 .second-header-prospect .right-party .square-outsize {
-    width: 19.8%;
+    width: 14.3%;
+
 }
 
 .second-header-prospect .right-party .square span {
@@ -185,11 +198,13 @@ body {
 .sub-header-prospect .left-party .line {
      height: 2em;
     text-align: left;
-    margin-left: 6px;
+ }
+.sub-header-prospect .left-party .line:first-child {
+    border-bottom: 2px solid #0D67C1;
  }
 
 .sub-header-prospect .left-party .line span {
-    margin-right: 5px;
+    margin-left: 5px;
     font-style: italic;
 }
 
@@ -202,6 +217,10 @@ body {
     height: 2em;
 }
 
+.sub-header-prospect .right-party input {
+    text-align: center;
+}
+
 .sub-header-prospect .center-party .line.grp {
     border-top: 1px solid #0D67C1;
 }
@@ -212,7 +231,7 @@ body {
 }
 
 .sub-header-prospect .center-party {
-    width: 43%;
+    width: 42.66%;
 }
 
 .sub-header-prospect .right-party{
@@ -290,7 +309,7 @@ body {
 }
 
 .main-prospect .collab:nth-child(even) {background: #FFF}
-.main-prospect .collab:nth-child(odd) {background: #c9c9c9}
+.main-prospect .collab:nth-child(odd) {background: #d3ecff}
 
 .main-prospect .collab .left-party {
 }
@@ -311,7 +330,7 @@ body {
 }
 .main-prospect .collab .center-party, .main-prospect .head .center-party {
     overflow: hidden;
-    width: 44.8%;
+    width: 36.4%;
 }
 
 .main-prospect .collab .center-party .col, .main-prospect .head .center-party .col {
@@ -331,8 +350,13 @@ body {
 
 
 .main-prospect .collab .center-party .first-col, .main-prospect .head .center-party .first-col {
-    width: 8%;
+    width: 5%;
     border-right: 2px dashed #0d67c1;
+
+}
+
+.main-prospect .collab .center-party .first-col input {
+    text-align: center;
 }
 
 .main-prospect .collab .center-party .second-col, .main-prospect .collab .center-party .third-col,
@@ -348,6 +372,7 @@ body {
 .main-prospect .collab .right-party, .main-prospect .head .right-party {
     overflow: hidden;
     width: 45.9%;
+    float:left;
 }
 
 .main-prospect .collab .right-party .line {
@@ -369,7 +394,7 @@ body {
 }
 
 
-.main-prospect .collab .right-party .square:last-child, .main-prospect .head .right-party .square:last-child{
+.main-prospect .head .right-party .square:last-child{
     border:none;
 }
 
@@ -385,23 +410,46 @@ body {
 }
 
 .footer-prospect .left-party .line {
-    height: 30%;
-    margin-left:2px;
+    height: 50%;
+    margin-left:6px;
 }
 
-.footer-prospect .left-party img {
+.footer-prospect .right-party {
+    float: left;
+    height: 100%;
+    position: relative;
+    width: 45%;
+    position:relative;
+}
+
+.footer-prospect .right-party img {
     width: 35px;
     position: absolute;
-    right: 5px;
-    bottom: 5px;
+    bottom: 15px;
+    left: 25px;
 }
 
+.footer-prospect .right-party .square {
+    width: 5.2em;
+    height: 100%;
+    border-left: 2px solid #0D67C1;
+    float: right;
+    position: relative;
+}
+
+.footer-prospect .right-party .note-footer {
+    float: left;
+    width: 82%;
+}
+
+
 .footer-prospect .center-party .line {
-    height: 23%;
+    height: 50%;
     margin-left: 4px;
 
 
 }
+
 
 
 
@@ -410,13 +458,27 @@ body {
     float: left;
     height: 100%;
     position: relative;
-    width: 50%;
+    width: 42.7%;
 }
 /* input */
 
 .upper-input {
     text-transform: uppercase;
 }
+
+.left-input {
+    text-align: right;
+}
+
+.center-input {
+    text-align: center;
+}
+
+.line-padding-border {
+    border-bottom: 2px solid #0D67C1;
+    padding-bottom: 4px;
+}
+
 .date-input::-webkit-inner-spin-button,
 .date-input::-webkit-calendar-picker-indicator,
 .date-input::-webkit-clear-button {
@@ -429,5 +491,9 @@ body {
 }
 
 .tel, #tel {
-    font-size: 8px;
+    font-size: 11px;
+}
+
+.blue-color {
+    background:#9ff5ff;
 }
