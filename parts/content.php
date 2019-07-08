@@ -28,7 +28,7 @@
                 <input type="text" class="data upper-input center-input" id="statut" value="SASU">
             </div>
             <div class="square square-outsize">
-                <span class="title">création</span>
+                <span class="title">dates (création, modif.)</span>
                 <br>
                 <input style="font-size: 11px;" type="date" class="data date-input" id="create" value="1978-01-01">
             </div>
@@ -203,7 +203,7 @@
         </div>
         <div class="center-party">
             <div class="line line-padding-border ">
-                <span  class="title">web</span>
+                <span  class="title">@web</span>
                 <br>
                 <input type="text" class="data" id="web" value="https://crma.fr">
             </div>
@@ -436,8 +436,9 @@
                         <input type="text" class="data upper-input" value="pca">
                     </div>
                     <div class="line">
-                        <span class="title green">dah <input type="checkbox">
+                        <span class="title"> nomin
                         </span>
+                        <br>
                         <span class="data">15/07/17</span>
                     </div>
                 </div>
@@ -574,8 +575,9 @@
                         <input type="text" class="data upper-input" value="pca">
                     </div>
                     <div class="line">
-                        <span class="title green">dah <input type="checkbox">
+                        <span class="title"> nomin
                         </span>
+                        <br>
                         <span class="data">15/07/17</span>
                     </div>
                 </div>
@@ -654,7 +656,6 @@
 
             </div>
         </div>
-
         <div class="collab">
             <div class="left-party">
                 <div class="line">
@@ -713,8 +714,9 @@
                         <input type="text" class="data upper-input" value="pca">
                     </div>
                     <div class="line">
-                        <span class="title green">dah <input type="checkbox">
+                        <span class="title"> nomin
                         </span>
+                        <br>
                         <span class="data">15/07/17</span>
                     </div>
                 </div>
@@ -793,7 +795,6 @@
 
             </div>
         </div>
-
         <div class="collab">
             <div class="left-party">
                 <div class="line">
@@ -852,8 +853,9 @@
                         <input type="text" class="data upper-input" value="pca">
                     </div>
                     <div class="line">
-                        <span class="title green">dah <input type="checkbox">
+                        <span class="title"> nomin
                         </span>
+                        <br>
                         <span class="data">15/07/17</span>
                     </div>
                 </div>
@@ -932,7 +934,6 @@
 
             </div>
         </div>
-
         <div class="collab">
             <div class="left-party">
                 <div class="line">
@@ -991,8 +992,9 @@
                         <input type="text" class="data upper-input" value="pca">
                     </div>
                     <div class="line">
-                        <span class="title green">dah <input type="checkbox">
+                        <span class="title"> nomin
                         </span>
+                        <br>
                         <span class="data">15/07/17</span>
                     </div>
                 </div>

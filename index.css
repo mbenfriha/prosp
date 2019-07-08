@@ -309,7 +309,11 @@ body {
 }
 
 .main-prospect .collab:nth-child(even) {background: #FFF}
-.main-prospect .collab:nth-child(odd) {background: #d3ecff}
+.main-prospect .collab:nth-child(odd) {
+    background: #c8c8c9;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
 
 .main-prospect .collab .left-party {
 }
