@@ -28,7 +28,7 @@
                 <input type="text" class="data upper-input center-input" id="statut" value="SASU">
             </div>
             <div class="square square-outsize">
-                <span class="title">dates (création, modif.)</span>
+                <span class="title">histo (création, modif.)</span>
                 <br>
                 <input style="font-size: 11px;" type="date" class="data date-input" id="create" value="1978-01-01">
             </div>
@@ -430,7 +430,7 @@
             </div>
             <div class="right-party">
                 <div class="square">
-                    <div class="line">
+                    <div class="line ">
                         <span class="title">resp.</span>
                         <br>
                         <input type="text" class="data upper-input" value="pca">
@@ -443,19 +443,19 @@
                     </div>
                 </div>
                 <div class="square">
-                    <div class="line">
+                    <div class="line  input">
                         <span class="title">contact</span>
                         <br>
                         <input type="text" class="data upper-input" value="pla">
                     </div>
-                    <div class="line ">
+                    <div class="line">
                         <span class="title green">dah <input type="checkbox">
                         </span>
                         <span class="data">01/07/17</span>
                     </div>
                 </div>
                 <div class="square">
-                    <div class="line">
+                    <div class="line input">
                         <span class="title">tact2</span>
                         <br>
                         <input type="text" class="data upper-input" value="rlsty">
@@ -467,7 +467,7 @@
                     </div>
                 </div>
                 <div class="square">
-                    <div class="line">
+                    <div class="line input">
                         <span class="title">tact3</span>
                         <br>
                         <input type="text" class="data upper-input" value="rltiv">
@@ -479,7 +479,7 @@
                     </div>
                 </div>
                 <div class="square">
-                    <div class="line">
+                    <div class="line input">
                         <span class="title">tact4</span>
                         <br>
                         <input type="text" class="data upper-input" value="">
@@ -491,7 +491,7 @@
                     </div>
                 </div>
                 <div class="square">
-                    <div class="line">
+                    <div class="line input">
                         <span class="title">tact5</span>
                         <br>
                         <input type="text" class="data upper-input" value="">
@@ -503,7 +503,7 @@
                     </div>
                 </div>
                 <div class="square">
-                    <div class="line">
+                    <div class="line input">
                         <span class="title">tact6</span>
                         <br>
                         <input type="text" class="data upper-input" value="">
@@ -569,7 +569,7 @@
             </div>
             <div class="right-party">
                 <div class="square">
-                    <div class="line">
+                    <div class="line ">
                         <span class="title">resp.</span>
                         <br>
                         <input type="text" class="data upper-input" value="pca">
@@ -582,19 +582,19 @@
                     </div>
                 </div>
                 <div class="square">
-                    <div class="line">
+                    <div class="line  input">
                         <span class="title">contact</span>
                         <br>
                         <input type="text" class="data upper-input" value="pla">
                     </div>
-                    <div class="line ">
+                    <div class="line">
                         <span class="title green">dah <input type="checkbox">
                         </span>
                         <span class="data">01/07/17</span>
                     </div>
                 </div>
                 <div class="square">
-                    <div class="line">
+                    <div class="line input">
                         <span class="title">tact2</span>
                         <br>
                         <input type="text" class="data upper-input" value="rlsty">
@@ -606,7 +606,7 @@
                     </div>
                 </div>
                 <div class="square">
-                    <div class="line">
+                    <div class="line input">
                         <span class="title">tact3</span>
                         <br>
                         <input type="text" class="data upper-input" value="rltiv">
@@ -618,7 +618,7 @@
                     </div>
                 </div>
                 <div class="square">
-                    <div class="line">
+                    <div class="line input">
                         <span class="title">tact4</span>
                         <br>
                         <input type="text" class="data upper-input" value="">
@@ -630,7 +630,7 @@
                     </div>
                 </div>
                 <div class="square">
-                    <div class="line">
+                    <div class="line input">
                         <span class="title">tact5</span>
                         <br>
                         <input type="text" class="data upper-input" value="">
@@ -642,7 +642,7 @@
                     </div>
                 </div>
                 <div class="square">
-                    <div class="line">
+                    <div class="line input">
                         <span class="title">tact6</span>
                         <br>
                         <input type="text" class="data upper-input" value="">
@@ -708,7 +708,7 @@
             </div>
             <div class="right-party">
                 <div class="square">
-                    <div class="line">
+                    <div class="line ">
                         <span class="title">resp.</span>
                         <br>
                         <input type="text" class="data upper-input" value="pca">
@@ -721,19 +721,19 @@
                     </div>
                 </div>
                 <div class="square">
-                    <div class="line">
+                    <div class="line  input">
                         <span class="title">contact</span>
                         <br>
                         <input type="text" class="data upper-input" value="pla">
                     </div>
-                    <div class="line ">
+                    <div class="line">
                         <span class="title green">dah <input type="checkbox">
                         </span>
                         <span class="data">01/07/17</span>
                     </div>
                 </div>
                 <div class="square">
-                    <div class="line">
+                    <div class="line input">
                         <span class="title">tact2</span>
                         <br>
                         <input type="text" class="data upper-input" value="rlsty">
@@ -745,7 +745,7 @@
                     </div>
                 </div>
                 <div class="square">
-                    <div class="line">
+                    <div class="line input">
                         <span class="title">tact3</span>
                         <br>
                         <input type="text" class="data upper-input" value="rltiv">
@@ -757,7 +757,7 @@
                     </div>
                 </div>
                 <div class="square">
-                    <div class="line">
+                    <div class="line input">
                         <span class="title">tact4</span>
                         <br>
                         <input type="text" class="data upper-input" value="">
@@ -769,7 +769,7 @@
                     </div>
                 </div>
                 <div class="square">
-                    <div class="line">
+                    <div class="line input">
                         <span class="title">tact5</span>
                         <br>
                         <input type="text" class="data upper-input" value="">
@@ -781,7 +781,7 @@
                     </div>
                 </div>
                 <div class="square">
-                    <div class="line">
+                    <div class="line input">
                         <span class="title">tact6</span>
                         <br>
                         <input type="text" class="data upper-input" value="">
@@ -847,7 +847,7 @@
             </div>
             <div class="right-party">
                 <div class="square">
-                    <div class="line">
+                    <div class="line ">
                         <span class="title">resp.</span>
                         <br>
                         <input type="text" class="data upper-input" value="pca">
@@ -860,19 +860,19 @@
                     </div>
                 </div>
                 <div class="square">
-                    <div class="line">
+                    <div class="line  input">
                         <span class="title">contact</span>
                         <br>
                         <input type="text" class="data upper-input" value="pla">
                     </div>
-                    <div class="line ">
+                    <div class="line">
                         <span class="title green">dah <input type="checkbox">
                         </span>
                         <span class="data">01/07/17</span>
                     </div>
                 </div>
                 <div class="square">
-                    <div class="line">
+                    <div class="line input">
                         <span class="title">tact2</span>
                         <br>
                         <input type="text" class="data upper-input" value="rlsty">
@@ -884,7 +884,7 @@
                     </div>
                 </div>
                 <div class="square">
-                    <div class="line">
+                    <div class="line input">
                         <span class="title">tact3</span>
                         <br>
                         <input type="text" class="data upper-input" value="rltiv">
@@ -896,7 +896,7 @@
                     </div>
                 </div>
                 <div class="square">
-                    <div class="line">
+                    <div class="line input">
                         <span class="title">tact4</span>
                         <br>
                         <input type="text" class="data upper-input" value="">
@@ -908,7 +908,7 @@
                     </div>
                 </div>
                 <div class="square">
-                    <div class="line">
+                    <div class="line input">
                         <span class="title">tact5</span>
                         <br>
                         <input type="text" class="data upper-input" value="">
@@ -920,7 +920,7 @@
                     </div>
                 </div>
                 <div class="square">
-                    <div class="line">
+                    <div class="line input">
                         <span class="title">tact6</span>
                         <br>
                         <input type="text" class="data upper-input" value="">
@@ -986,7 +986,7 @@
             </div>
             <div class="right-party">
                 <div class="square">
-                    <div class="line">
+                    <div class="line ">
                         <span class="title">resp.</span>
                         <br>
                         <input type="text" class="data upper-input" value="pca">
@@ -999,19 +999,19 @@
                     </div>
                 </div>
                 <div class="square">
-                    <div class="line">
+                    <div class="line  input">
                         <span class="title">contact</span>
                         <br>
                         <input type="text" class="data upper-input" value="pla">
                     </div>
-                    <div class="line ">
+                    <div class="line">
                         <span class="title green">dah <input type="checkbox">
                         </span>
                         <span class="data">01/07/17</span>
                     </div>
                 </div>
                 <div class="square">
-                    <div class="line">
+                    <div class="line input">
                         <span class="title">tact2</span>
                         <br>
                         <input type="text" class="data upper-input" value="rlsty">
@@ -1023,7 +1023,7 @@
                     </div>
                 </div>
                 <div class="square">
-                    <div class="line">
+                    <div class="line input">
                         <span class="title">tact3</span>
                         <br>
                         <input type="text" class="data upper-input" value="rltiv">
@@ -1035,7 +1035,7 @@
                     </div>
                 </div>
                 <div class="square">
-                    <div class="line">
+                    <div class="line input">
                         <span class="title">tact4</span>
                         <br>
                         <input type="text" class="data upper-input" value="">
@@ -1047,7 +1047,7 @@
                     </div>
                 </div>
                 <div class="square">
-                    <div class="line">
+                    <div class="line input">
                         <span class="title">tact5</span>
                         <br>
                         <input type="text" class="data upper-input" value="">
@@ -1059,7 +1059,7 @@
                     </div>
                 </div>
                 <div class="square">
-                    <div class="line">
+                    <div class="line input">
                         <span class="title">tact6</span>
                         <br>
                         <input type="text" class="data upper-input" value="">
