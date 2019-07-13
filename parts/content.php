@@ -1082,6 +1082,8 @@
             </div>
             <div class="line">
                 <span class="title">note 4</span>
+                <br>
+                <span id="cpyr">                © human-partners</span>
             </div>
         </div>
         <div class="center-party">
@@ -1103,9 +1105,6 @@
 
                     <input type="text" class="data note" id="note6" value="1984 rachat ETDE, nle appellation en 2013">
                 </div>
-            </div>
-            <div class="square">
-                <img src="./img/logo-mini.png" alt="">
             </div>
         </div>
     </div>
