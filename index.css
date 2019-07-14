@@ -299,7 +299,7 @@ body {
 .main-prospect {
     border: 4px solid #0D67C1;
     height: 17.7em;
-    overflow: scroll;
+    /*overflow: scroll;*/
 }
 
 .main-prospect .collab {
@@ -388,7 +388,7 @@ body {
 
 
 .main-prospect .collab .right-party .line.input {
-    height: 42%;
+    height: 46%;
 }
 
 

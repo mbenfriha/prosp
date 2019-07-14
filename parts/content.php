@@ -430,7 +430,7 @@
             </div>
             <div class="right-party">
                 <div class="square">
-                    <div class="line ">
+                    <div class="line " style="    height: 53%;">
                         <span class="title">resp.</span>
                         <br>
                         <input type="text" class="data upper-input" value="pca">
@@ -569,7 +569,7 @@
             </div>
             <div class="right-party">
                 <div class="square">
-                    <div class="line ">
+                    <div class="line " style="    height: 53%;">
                         <span class="title">resp.</span>
                         <br>
                         <input type="text" class="data upper-input" value="pca">
@@ -708,7 +708,7 @@
             </div>
             <div class="right-party">
                 <div class="square">
-                    <div class="line ">
+                    <div class="line " style="    height: 53%;">
                         <span class="title">resp.</span>
                         <br>
                         <input type="text" class="data upper-input" value="pca">
@@ -847,7 +847,7 @@
             </div>
             <div class="right-party">
                 <div class="square">
-                    <div class="line ">
+                    <div class="line " style="    height: 53%;">
                         <span class="title">resp.</span>
                         <br>
                         <input type="text" class="data upper-input" value="pca">
@@ -986,7 +986,7 @@
             </div>
             <div class="right-party">
                 <div class="square">
-                    <div class="line ">
+                    <div class="line " style="    height: 53%;">
                         <span class="title">resp.</span>
                         <br>
                         <input type="text" class="data upper-input" value="pca">
