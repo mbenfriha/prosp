@@ -88,7 +88,7 @@
                 <div class="square">
                     <span class="title">établ.</span>
                     <br>
-                    <input class="data center-input" id="etabl-h" type="number" value="152">
+                    <input class="data center-input" id="etabl-h" type="text" value="152">
                 </div>
                 <div class="square square-outsize">
                     <span class="title">capital (k€)</span>
