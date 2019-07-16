@@ -138,7 +138,7 @@
                     <input class="data" id="treso-first" type="text" value="">
                 </div>
             </div>
-            <div class="line line-year">
+            <div class="line line-year last-line">
                 <div class="square caht">
                     <span class="title">2019</span>
                     <br>
@@ -289,7 +289,7 @@
                     <input class="data" id="treso-four" type="text" value="93294">
                 </div>
             </div>
-            <div class="line line-year">
+            <div class="line line-year last-line">
                 <div class="square caht">
                     <span class="title">2016</span>
                     <br>

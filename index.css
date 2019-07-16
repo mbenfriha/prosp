@@ -66,6 +66,7 @@ body {
     border-top-right-radius: 40px;
     height: 1.7em;
     overflow: hidden;
+    line-height:8px;
 }
 
 .header-prospect .left-party{
@@ -120,8 +121,9 @@ body {
     border-top: 2px solid #0D67C1;
     border-right: 4px solid #0D67C1;
     border-left: 4px solid #0D67C1;
-    height: 5.4em;
+    height: 5.1em;
     overflow: hidden;
+    line-height: 7px;
 }
 
 .second-header-prospect .left-party{
@@ -192,6 +194,11 @@ body {
     text-align: center;
 }
 
+
+.second-header-prospect .last-line {
+    border-bottom: none !important;
+}
+
 /* sub header */
 
 .sub-header-prospect  {
@@ -200,12 +207,17 @@ body {
     border-left: 4px solid #0D67C1;
     height: 5.6em;
     overflow: hidden;
+    line-height:8px;
 }
 
 .sub-header-prospect .left-party .line {
      height: 1.5em;
     text-align: left;
  }
+
+.sub-header-prospect .last-line {
+    border-bottom: none !important;
+}
 .sub-header-prospect .left-party .line:first-child {
     border-bottom: 2px solid #0D67C1;
  }
