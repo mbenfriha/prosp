@@ -28,6 +28,9 @@ body {
     font-weight:600;
 }
 
+.left-party .data {
+    width: 97%;
+}
 .note {
     font-size: 9px;
     width:98%;
@@ -64,7 +67,7 @@ body {
     border-left: 4px solid #0D67C1;
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
-    height: 1.7em;
+    height: 1.5em;
     overflow: hidden;
     line-height:8px;
 }
@@ -75,7 +78,7 @@ body {
 
 
 .header-prospect .left-party span{
-    margin-left: 12px;
+    margin-left: 19px;
     font-style: italic;
 }
 
@@ -93,7 +96,7 @@ body {
 
 .header-prospect .right-party .square:first-child {
     border-left: none;
-    width: 43%;
+    width: 42.9%;
     height: 100%;
     float: left;
 }
@@ -531,6 +534,11 @@ body {
     font-size: 11px;
 }
 
+#tel {
+    text-align: left;
+    margin-left:10px;
+}
+
 .blue-color {
     background:#9ff5ff;
 }
@@ -553,4 +561,8 @@ body {
 
 .alea {
     text-align: right;
+}
+
+.main-prospect .collab .right-party .square:first-child{
+    border-right: 2px solid #0d67c1;
 }

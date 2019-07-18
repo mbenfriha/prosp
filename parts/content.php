@@ -90,7 +90,7 @@
                     <br>
                     <input class="data center-input" id="etabl-h" type="text" value="152">
                 </div>
-                <div class="square square-outsize">
+                <div class="square">
                     <span class="title">capital (k€)</span>
                     <br>
                     <input class="data center-input" id="capital-h" type="text" value="50 574">
